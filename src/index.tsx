@@ -1,15 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { createGlobalStyle } from "styled-components";
+import { RecoilRoot } from "recoil";
+
+const GlobalStyle = createGlobalStyle`
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mapboxgl-ctrl-logo {
+    display: none !important;
+  }
+  
+`;
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <GlobalStyle />
+    <RecoilRoot>
+      <App />
+    </RecoilRoot>
   </React.StrictMode>
 );
 

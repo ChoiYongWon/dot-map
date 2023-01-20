@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import MapBox from "./pages/MapBox";
+import { MarkerData } from "./type";
+import data from "./data/post.json";
+import Dot from "./components/Dot";
+import Card from "./components/Card";
+import { recoil_card_isView, recoil_marker_info } from "./recoil";
+import { useRecoilState } from "recoil";
 
 function App() {
+  // eslint-disable-next-line
+  const [selectedMarker, setSelectedMarker] =
+    useRecoilState(recoil_marker_info);
+
+  const [cardIsView, setCardIsView] = useRecoilState(recoil_card_isView);
+
+  useEffect(() => {
+    if (selectedMarker) {
+      setTimeout(() => {
+        setCardIsView(true);
+      }, 800);
+    }
+    // eslint-disable-next-line
+  }, [selectedMarker]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MapBox>
+      {data.map((data, i) => (
+        <Dot key={i} data={data as MarkerData}></Dot>
+      ))}
+      <Card isView={cardIsView}></Card>
+    </MapBox>
   );
 }
 
