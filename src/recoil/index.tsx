@@ -1,7 +1,7 @@
 import { atom } from "recoil";
 import { MarkerData } from "../type";
 
-export const recoil_marker_info = atom<MarkerData>({
+export const recoil_marker_info = atom<MarkerData | null>({
   key: "selectedMarker",
   default: undefined,
 });

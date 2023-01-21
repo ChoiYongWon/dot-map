@@ -3,9 +3,114 @@
     "id": 0,
     "startDate": "2022-10-11",
     "endDate": "2022-10-13",
+    "name": "수유",
+    "longitude": 127.034,
+    "latitude": 37.627,
+    "imgUrls": [
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/3FD3BA0B-858C-4718-AD1B-FB7CC53DE472.jpeg"
+    ]
+  },
+  {
+    "id": 1,
+    "startDate": "2022-10-20",
+    "endDate": "2022-10-20",
     "name": "국민대학교",
-    "longitude": 128.58,
-    "latitude": 35.6699,
-    "imgUrls": [{}, {}, {}]
+    "longitude": 126.9965,
+    "latitude": 37.6116,
+    "imgUrls": [
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_6760.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/A5E6917D-20E0-49B4-8264-2054AD58A97C.jpeg"
+    ]
+  },
+  {
+    "id": 2,
+    "startDate": "2022-10-30",
+    "endDate": "2022-10-31",
+    "name": "롯데월드",
+    "longitude": 127.1027,
+    "latitude": 37.5125,
+    "imgUrls": [
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_6765.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_6760.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/A5E6917D-20E0-49B4-8264-2054AD58A97C.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "startDate": "2022-11-3",
+    "endDate": "2022-11-3",
+    "name": "계명대학교",
+    "longitude": 128.485,
+    "latitude": 35.8569,
+    "imgUrls": [
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_7636.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_6760.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/A5E6917D-20E0-49B4-8264-2054AD58A97C.jpeg"
+    ]
+  },
+  {
+    "id": 4,
+    "startDate": "2022-11-11",
+    "endDate": "2022-11-13",
+    "name": "수성못",
+    "longitude": 128.6233,
+    "latitude": 35.8313,
+    "imgUrls": [
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_8771.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_7636.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/A5E6917D-20E0-49B4-8264-2054AD58A97C.jpeg"
+    ]
+  },
+  {
+    "id": 5,
+    "startDate": "2022-12-4",
+    "endDate": "2022-12-5",
+    "name": "경주",
+    "longitude": 129.2264,
+    "latitude": 35.8339,
+    "imgUrls": [
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_9496.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_7636.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/A5E6917D-20E0-49B4-8264-2054AD58A97C.jpeg"
+    ]
+  },
+  {
+    "id": 6,
+    "startDate": "2022-12-24",
+    "endDate": "2022-12-24",
+    "name": "수원",
+    "longitude": 126.9995,
+    "latitude": 37.2663,
+    "imgUrls": [
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_9496.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_7636.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/A5E6917D-20E0-49B4-8264-2054AD58A97C.jpeg"
+    ]
+  },
+  {
+    "id": 7,
+    "startDate": "2022-12-25",
+    "endDate": "2022-12-25",
+    "name": "부산",
+    "longitude": 129.0778,
+    "latitude": 35.1763,
+    "imgUrls": [
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_9496.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_7636.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/A5E6917D-20E0-49B4-8264-2054AD58A97C.jpeg"
+    ]
+  },
+  {
+    "id": 8,
+    "startDate": "2022-12-31",
+    "endDate": "2022-12-31",
+    "name": "제주도",
+    "longitude": 126.3729,
+    "latitude": 33.4445,
+    "imgUrls": [
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_9496.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/IMG_7636.jpeg",
+      "https://dot-map.s3.ap-northeast-2.amazonaws.com/A5E6917D-20E0-49B4-8264-2054AD58A97C.jpeg"
+    ]
   }
 ]

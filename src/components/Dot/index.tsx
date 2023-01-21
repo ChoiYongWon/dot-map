@@ -17,7 +17,8 @@ const Dot = (props: Props) => {
   const onClick = () => {
     map?.flyTo({
       center: [props.data.longitude, props.data.latitude],
-      zoom: 10,
+      zoom: 16,
+      duration: 800,
     });
     setSelectedMarker(props.data);
   };
@@ -30,7 +31,7 @@ const Dot = (props: Props) => {
       anchor="bottom"
       style={{ cursor: "pointer" }}
     >
-      <img src={Circle} alt={""} style={{ width: "7px", height: "7px" }} />
+      <img src={Circle} alt={""} style={{ width: "10px", height: "10px" }} />
     </Marker>
   );
 };
